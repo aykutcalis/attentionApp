@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image:  url('assets/bodybg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    
+}
+
+#attentionSpan {
+    font-weight: 900 !important;  
+}
+.mainText{
+    
+    font-size:x-large;
+}
+.sectionDiv{
+    
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    background-color: rgb(255, 0, 123); 
+    color: white;
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 10px;
+}
